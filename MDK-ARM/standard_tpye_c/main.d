@@ -7,7 +7,7 @@
 .\standard_tpye_c\main.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
 .\standard_tpye_c\main.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
 .\standard_tpye_c\main.o: ../Drivers/CMSIS/Include/core_cm4.h
-.\standard_tpye_c\main.o: C:\Keil_v5_ARM\ARM\ARMCC\Bin\..\include\stdint.h
+.\standard_tpye_c\main.o: C:\Users\95829\Downloads\robotgrinder\ARM\ARMCC\Bin\..\include\stdint.h
 .\standard_tpye_c\main.o: ../Drivers/CMSIS/Include/cmsis_version.h
 .\standard_tpye_c\main.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 .\standard_tpye_c\main.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
@@ -15,7 +15,7 @@
 .\standard_tpye_c\main.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
 .\standard_tpye_c\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 .\standard_tpye_c\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-.\standard_tpye_c\main.o: C:\Keil_v5_ARM\ARM\ARMCC\Bin\..\include\stddef.h
+.\standard_tpye_c\main.o: C:\Users\95829\Downloads\robotgrinder\ARM\ARMCC\Bin\..\include\stddef.h
 .\standard_tpye_c\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
 .\standard_tpye_c\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
 .\standard_tpye_c\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
@@ -71,9 +71,9 @@
 .\standard_tpye_c\main.o: ../Inc/usb_device.h
 .\standard_tpye_c\main.o: ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h
 .\standard_tpye_c\main.o: ../Inc/usbd_conf.h
-.\standard_tpye_c\main.o: C:\Keil_v5_ARM\ARM\ARMCC\Bin\..\include\stdio.h
-.\standard_tpye_c\main.o: C:\Keil_v5_ARM\ARM\ARMCC\Bin\..\include\stdlib.h
-.\standard_tpye_c\main.o: C:\Keil_v5_ARM\ARM\ARMCC\Bin\..\include\string.h
+.\standard_tpye_c\main.o: C:\Users\95829\Downloads\robotgrinder\ARM\ARMCC\Bin\..\include\stdio.h
+.\standard_tpye_c\main.o: C:\Users\95829\Downloads\robotgrinder\ARM\ARMCC\Bin\..\include\stdlib.h
+.\standard_tpye_c\main.o: C:\Users\95829\Downloads\robotgrinder\ARM\ARMCC\Bin\..\include\string.h
 .\standard_tpye_c\main.o: ../Inc/gpio.h
 .\standard_tpye_c\main.o: ..\bsp\boards\bsp_can.h
 .\standard_tpye_c\main.o: ..\application\struct_typedef.h
@@ -92,6 +92,8 @@
 .\standard_tpye_c\main.o: ..\application\led_flow_task.h
 .\standard_tpye_c\main.o: ..\application\oled_task.h
 .\standard_tpye_c\main.o: ..\application\referee_usart_task.h
+.\standard_tpye_c\main.o: ..\application\referee.h
+.\standard_tpye_c\main.o: ..\application\protocol\protocol.h
 .\standard_tpye_c\main.o: ..\application\usb_task.h
 .\standard_tpye_c\main.o: ..\application\voltage_task.h
 .\standard_tpye_c\main.o: ..\application\SuperCap_comm.h

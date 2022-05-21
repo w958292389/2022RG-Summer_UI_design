@@ -302,7 +302,7 @@ void JUDGE_Show_Data(void){
 	//write header
 	memcpy( Show_Pack, &FrameHeader, LEN_HEADER );
 	//header CRC8 checking
-	Append_CRC8_Check_Sum( Show_Pack, LEN_HEADER );
+	append_CRC8_check_sum( Show_Pack, LEN_HEADER );
 	
 	ShowData.CmdID = ID_SHOW;
 	
@@ -313,7 +313,7 @@ void JUDGE_Show_Data(void){
 	
 	memcpy( Show_Pack + LEN_HEADER, &ShowData, (LEN_CMDID + LEN_SHOW) );
 	
-	Append_CRC16_Check_Sum( Show_Pack, (LEN_HEADER + LEN_CMDID + LEN_SHOW + LEN_TAIL) );
+	append_CRC16_check_sum( Show_Pack, (LEN_HEADER + LEN_CMDID + LEN_SHOW + LEN_TAIL) );
 
 	for (i = 0; i < (LEN_HEADER + LEN_CMDID + LEN_SHOW + LEN_TAIL); i++)
 	{
