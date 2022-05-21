@@ -1,7 +1,7 @@
 .\standard_tpye_c\freertos.o: ../Src/freertos.c
 .\standard_tpye_c\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
-.\standard_tpye_c\freertos.o: C:\Users\95829\Downloads\robotgrinder\ARM\ARMCC\Bin\..\include\stddef.h
-.\standard_tpye_c\freertos.o: C:\Users\95829\Downloads\robotgrinder\ARM\ARMCC\Bin\..\include\stdint.h
+.\standard_tpye_c\freertos.o: C:\Keil_v5_ARM\ARM\ARMCC\Bin\..\include\stddef.h
+.\standard_tpye_c\freertos.o: C:\Keil_v5_ARM\ARM\ARMCC\Bin\..\include\stdint.h
 .\standard_tpye_c\freertos.o: ../Inc/FreeRTOSConfig.h
 .\standard_tpye_c\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 .\standard_tpye_c\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
@@ -72,8 +72,6 @@
 .\standard_tpye_c\freertos.o: ..\application\led_flow_task.h
 .\standard_tpye_c\freertos.o: ..\application\oled_task.h
 .\standard_tpye_c\freertos.o: ..\application\referee_usart_task.h
-.\standard_tpye_c\freertos.o: ..\application\referee.h
-.\standard_tpye_c\freertos.o: ..\application\protocol\protocol.h
 .\standard_tpye_c\freertos.o: ..\application\usb_task.h
 .\standard_tpye_c\freertos.o: ..\application\voltage_task.h
 .\standard_tpye_c\freertos.o: ..\application\servo_task.h
